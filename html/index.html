@@ -16,29 +16,25 @@
         <hr>
         <div class="board">
             <div class="table">
-                <div class="squares x">X</div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
-                <div class="squares"></div>
+                <div data-number=0 class="squares text"></div>
+                <div data-number=1 class="squares text"></div>
+                <div data-number=2 class="squares text"></div>
+                <div data-number=3 class="squares text"></div>
+                <div data-number=4 class="squares text"></div>
+                <div data-number=5 class="squares text"></div>
+                <div data-number=6 class="squares text"></div>
+                <div data-number=7 class="squares text"></div>
+                <div data-number=8 class="squares text"></div>
+                <div data-number=1 class="line"></div>
             </div>
-            <div class="messages"></div>
+            <div class="messages">
+                <div class="winning-message hidden">Player X won the game</div>
+                <div class="turn">It is <span style="color: red;">X</span>'s turn</div>
+                <button class="restart">Restart</button>
+            </div>
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
     <script src="../js/app.js"></script>
 </body>
 
